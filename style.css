@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.container {
+    padding: 20px;
+    border: 2px solid #ffaae8;
+    border-radius: 8px;
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.head h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffaae8;
+}
+
+.head img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ffaae8;
+}
+
+.head a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.head a:hover {
+    border: 2px solid black;
+    background-color: #ffaae8;
+    border-radius: 8px;
+}
+
+.self-intro, .educational, .expertise, .it-background, .applications {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.self-intro h3, .educational h3, .expertise h3, .it-background h3, .applications h3 {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background: linear-gradient(135deg, rgba(255, 81, 162, 0.807) 0%, rgba(149, 195, 255, 0.79) 100%);
+
+
+}
+
+.self-intro p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-indent: 50px;
+}
+
+.educational table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.educational th, .educational td {
+    border: 2px solid black;
+    padding: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.educational th {
+    background-color: #ffaae8;
+    font-weight: bolder;
+}
+
+.expertise ul, .applications ol {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.it-background p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-indent: 50px;
+    margin-bottom: 20px;
+}
